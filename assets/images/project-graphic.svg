@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="posterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24202D" />
+      <stop offset="100%" stop-color="#14111B" />
+    </linearGradient>
+    <linearGradient id="orbGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7445C5" />
+      <stop offset="100%" stop-color="#FF8A45" />
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7445C5" />
+      <stop offset="100%" stop-color="#4F2694" />
+    </linearGradient>
+    <filter id="shadowHeavy" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#24202D" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="800" height="520" rx="20" fill="#F4F1F9" />
+
+  <!-- Layout Showcase: Graphic Designer Workspace Artboard -->
+  
+  <!-- Left Side: Editorial Art Poster (Dark Mode Swiss Minimal Style) -->
+  <g transform="translate(60, 40)" filter="url(#shadowHeavy)">
+    <rect width="320" height="440" rx="16" fill="url(#posterGrad)" stroke="#393247" stroke-width="1.5" />
+    
+    <!-- Top Editorial Header -->
+    <text x="28" y="44" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#FAF9F6" letter-spacing="3">AURA CREATIVE STUDIO</text>
+    <text x="250" y="44" font-family="'Courier New', monospace" font-size="10" fill="#FF8A45">NO. 08</text>
+    <line x1="28" y1="56" x2="292" y2="56" stroke="#393247" stroke-width="1" />
+
+    <!-- Big Typographic Treatment -->
+    <text x="26" y="115" font-family="'Outfit', sans-serif" font-size="44" font-weight="900" fill="#FAF9F6" letter-spacing="-1">VISUAL</text>
+    <text x="26" y="156" font-family="'Outfit', sans-serif" font-size="44" font-weight="900" fill="#7445C5" letter-spacing="-1">HARMONY</text>
+
+    <!-- Abstract Geometric Gradient Art Centerpiece -->
+    <g transform="translate(160, 260)">
+      <circle cx="0" cy="0" r="75" fill="url(#orbGrad1)" />
+      <circle cx="0" cy="0" r="75" fill="none" stroke="#FAF9F6" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6" />
+      <rect x="-45" y="-45" width="90" height="90" rx="16" fill="none" stroke="#FAF9F6" stroke-width="2" transform="rotate(45)" opacity="0.85" />
+      <circle cx="0" cy="0" r="24" fill="#24202D" />
+      <circle cx="0" cy="0" r="8" fill="#FF8A45" />
+    </g>
+
+    <!-- Bottom Editorial Details -->
+    <line x1="28" y1="365" x2="292" y2="365" stroke="#393247" stroke-width="1" />
+    <text x="28" y="388" font-family="'DM Sans', sans-serif" font-size="10" fill="#A49DB0">Typography / Color Theory / Layout Study</text>
+    <text x="28" y="405" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#FAF9F6">Designed by Fenil Kachhadiya</text>
+    <text x="250" y="405" font-family="'Courier New', monospace" font-size="10" fill="#FAF9F6">© 2026</text>
+  </g>
+
+  <!-- Right Side: Brand Guidelines & Stationery Study -->
+  <g transform="translate(420, 50)">
+    
+    <!-- Card 1: Logo Grid & Symbol Exploration -->
+    <g filter="url(#shadowHeavy)">
+      <rect width="320" height="150" rx="16" fill="#FFFFFF" stroke="#ECE8F3" stroke-width="1.5" />
+      <text x="24" y="28" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#7445C5">01 / LOGO GRID GEOMETRY</text>
+      
+      <!-- Logo Mark Construction -->
+      <g transform="translate(60, 85)">
+        <circle cx="0" cy="0" r="32" fill="none" stroke="#E6E0F2" stroke-width="1" stroke-dasharray="3 3" />
+        <rect x="-24" y="-24" width="48" height="48" rx="12" fill="none" stroke="#7445C5" stroke-width="2.5" />
+        <polygon points="0,-16 16,12 -16,12" fill="none" stroke="#FF8A45" stroke-width="2" />
+        <circle cx="0" cy="2" r="5" fill="#7445C5" />
+      </g>
+
+      <!-- Specifications Text -->
+      <text x="130" y="65" font-family="'Outfit', sans-serif" font-size="15" font-weight="800" fill="#24202D">Aura Monogram</text>
+      <text x="130" y="85" font-family="'DM Sans', sans-serif" font-size="11" fill="#77727F">Golden Ratio Proportions (1.618)</text>
+      <text x="130" y="103" font-family="'DM Sans', sans-serif" font-size="11" fill="#77727F">Constructed for high digital legibility</text>
+      <rect x="130" y="115" width="85" height="18" rx="9" fill="#F0EEF8" />
+      <text x="140" y="127" font-family="'DM Sans', sans-serif" font-size="9" font-weight="700" fill="#7445C5">Adobe Illustrator</text>
+    </g>
+
+    <!-- Card 2: Color Palette Swatches -->
+    <g transform="translate(0, 175)" filter="url(#shadowHeavy)">
+      <rect width="320" height="110" rx="16" fill="#FFFFFF" stroke="#ECE8F3" stroke-width="1.5" />
+      <text x="24" y="28" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#7445C5">02 / BRAND PALETTE</text>
+      
+      <!-- Swatch 1: Primary Purple -->
+      <circle cx="50" cy="65" r="20" fill="#7445C5" />
+      <text x="50" y="96" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#24202D" text-anchor="middle">#7445C5</text>
+
+      <!-- Swatch 2: Accent Coral -->
+      <circle cx="120" cy="65" r="20" fill="#FF8A45" />
+      <text x="120" y="96" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#24202D" text-anchor="middle">#FF8A45</text>
+
+      <!-- Swatch 3: Dark Ink -->
+      <circle cx="190" cy="65" r="20" fill="#24202D" />
+      <text x="190" y="96" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#24202D" text-anchor="middle">#24202D</text>
+
+      <!-- Swatch 4: Warm Alabaster -->
+      <circle cx="260" cy="65" r="20" fill="#FAF9F6" stroke="#DED9EB" stroke-width="1.5" />
+      <text x="260" y="96" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#24202D" text-anchor="middle">#FAF9F6</text>
+    </g>
+
+    <!-- Card 3: Business Card Mockup -->
+    <g transform="translate(0, 310)" filter="url(#shadowHeavy)">
+      <rect width="320" height="120" rx="14" fill="url(#cardGrad2)" />
+      
+      <circle cx="270" cy="30" r="50" fill="#FFFFFF" opacity="0.06" />
+      <circle cx="45" cy="45" r="14" fill="#FFFFFF" opacity="0.15" />
+      <polygon points="40,40 48,45 40,50" fill="#FAF9F6" />
+
+      <text x="45" y="85" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#FAF9F6">FENIL KACHHADIYA</text>
+      <text x="45" y="102" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#FFBD8A">UI/UX & Graphic Designer</text>
+    </g>
+  </g>
+</svg>

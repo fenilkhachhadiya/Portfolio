@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7445C5" />
+      <stop offset="100%" stop-color="#4C288E" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D1F47" />
+      <stop offset="100%" stop-color="#181126" />
+    </linearGradient>
+    <linearGradient id="neonOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A45" />
+      <stop offset="100%" stop-color="#FF5A26" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7445C5" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#FAF9F6" stop-opacity="0" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#24202D" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Browser Frame Background -->
+  <rect x="0" y="0" width="800" height="520" rx="20" fill="#FAF9F6" />
+  
+  <!-- Browser Chrome Top Bar -->
+  <rect x="0" y="0" width="800" height="48" rx="20" fill="#FFFFFF" />
+  <rect x="0" y="24" width="800" height="24" fill="#FFFFFF" />
+  <line x1="0" y1="48" x2="800" y2="48" stroke="#ECE8F3" stroke-width="1.5" />
+  
+  <!-- Traffic Light Dots -->
+  <circle cx="28" cy="24" r="6" fill="#FF5F56" />
+  <circle cx="48" cy="24" r="6" fill="#FFBD2E" />
+  <circle cx="68" cy="24" r="6" fill="#27C93F" />
+  
+  <!-- URL Address Bar -->
+  <rect x="180" y="10" width="440" height="28" rx="14" fill="#F4F1F9" stroke="#E3DEF0" stroke-width="1" />
+  <circle cx="200" cy="24" r="4" fill="#0ACF83" />
+  <text x="214" y="29" font-family="'DM Sans', sans-serif" font-size="12" fill="#77727F">https://finpulse.design/saas-landing</text>
+
+  <!-- Canvas Content -->
+  <!-- Subtle background glow -->
+  <circle cx="650" cy="200" r="240" fill="url(#glowGrad)" />
+  <circle cx="150" cy="400" r="180" fill="url(#glowGrad)" />
+
+  <!-- In-Page Navbar -->
+  <g transform="translate(48, 68)">
+    <!-- Logo -->
+    <rect x="0" y="6" width="28" height="28" rx="8" fill="url(#pGrad)" />
+    <path d="M8,20 L14,14 L18,18 L22,12" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <text x="36" y="26" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#24202D">FinPulse</text>
+    
+    <!-- Nav Links -->
+    <text x="260" y="24" font-family="'DM Sans', sans-serif" font-size="13" font-weight="600" fill="#24202D">Features</text>
+    <text x="340" y="24" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#77727F">Solutions</text>
+    <text x="420" y="24" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#77727F">Pricing</text>
+    <text x="490" y="24" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#77727F">Company</text>
+    
+    <!-- Action buttons -->
+    <rect x="600" y="4" width="104" height="32" rx="16" fill="url(#pGrad)" />
+    <text x="626" y="24" font-family="'DM Sans', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Get Started</text>
+  </g>
+
+  <!-- Hero Content Left -->
+  <g transform="translate(48, 145)">
+    <!-- Pill tag -->
+    <rect x="0" y="0" width="170" height="28" rx="14" fill="#F0EEF8" stroke="#DCD5EB" stroke-width="1" />
+    <circle cx="14" cy="14" r="4" fill="#7445C5" />
+    <text x="26" y="18" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#7445C5">NEXT-GEN BANKING UI</text>
+
+    <!-- Main Headline -->
+    <text x="0" y="66" font-family="'Outfit', sans-serif" font-size="34" font-weight="800" fill="#24202D" letter-spacing="-0.5">
+      Smarter Wealth
+    </text>
+    <text x="0" y="106" font-family="'Outfit', sans-serif" font-size="34" font-weight="800" fill="#7445C5" letter-spacing="-0.5">
+      Management for All
+    </text>
+
+    <!-- Subtitle text lines -->
+    <text x="0" y="142" font-family="'DM Sans', sans-serif" font-size="14" fill="#77727F">
+      Designed with a user-first mindset, clean hierarchy,
+    </text>
+    <text x="0" y="162" font-family="'DM Sans', sans-serif" font-size="14" fill="#77727F">
+      and frictionless multi-currency transaction flows.
+    </text>
+
+    <!-- Hero CTA Buttons -->
+    <g transform="translate(0, 192)">
+      <rect x="0" y="0" width="144" height="44" rx="22" fill="url(#pGrad)" filter="url(#shadow)" />
+      <text x="32" y="27" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Start Free Trial</text>
+      
+      <rect x="156" y="0" width="124" height="44" rx="22" fill="#FFFFFF" stroke="#DCD5EB" stroke-width="1.5" />
+      <text x="184" y="27" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#24202D">View Demo</text>
+    </g>
+
+    <!-- Micro Stats -->
+    <g transform="translate(0, 265)">
+      <text x="0" y="22" font-family="'Outfit', sans-serif" font-size="20" font-weight="800" fill="#24202D">4.9 / 5.0</text>
+      <text x="0" y="40" font-family="'DM Sans', sans-serif" font-size="11" fill="#77727F">User satisfaction score</text>
+
+      <line x1="140" y1="8" x2="140" y2="42" stroke="#E3DEF0" stroke-width="1.5" />
+
+      <text x="160" y="22" font-family="'Outfit', sans-serif" font-size="20" font-weight="800" fill="#7445C5">0% Fees</text>
+      <text x="160" y="40" font-family="'DM Sans', sans-serif" font-size="11" fill="#77727F">On global peer transfers</text>
+    </g>
+  </g>
+
+  <!-- Hero Visual Right: Glassmorphic Debit Card & Stats Floater -->
+  <g transform="translate(430, 145)">
+    <!-- Main Card Shadowed Container -->
+    <g filter="url(#shadow)">
+      <!-- Virtual Black Platinum Card -->
+      <rect x="40" y="20" width="280" height="175" rx="20" fill="url(#cardGrad)" stroke="#534078" stroke-width="1.5" />
+      <circle cx="80" cy="55" r="16" fill="#FF8A45" opacity="0.8" />
+      <circle cx="102" cy="55" r="16" fill="#FFBD2E" opacity="0.8" />
+      
+      <text x="245" y="58" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#FAF9F6">FinPulse</text>
+      <rect x="70" y="95" width="34" height="24" rx="4" fill="#D3A95E" opacity="0.9" />
+      <text x="70" y="148" font-family="'Courier New', monospace" font-size="14" font-weight="700" fill="#FFFFFF" letter-spacing="3">
+        4820  ••••  ••••  9124
+      </text>
+      <text x="70" y="174" font-family="'DM Sans', sans-serif" font-size="9" fill="#9C95AA">CARDHOLDER</text>
+      <text x="70" y="186" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#FAF9F6">FENIL K.</text>
+      
+      <text x="250" y="174" font-family="'DM Sans', sans-serif" font-size="9" fill="#9C95AA">EXPIRES</text>
+      <text x="250" y="186" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#FAF9F6">08/28</text>
+    </g>
+
+    <!-- Floating Revenue Badge (Bottom Left) -->
+    <g transform="translate(0, 185)" filter="url(#shadow)">
+      <rect width="180" height="85" rx="18" fill="#FFFFFF" stroke="#EAE6F2" stroke-width="1.5" />
+      <circle cx="30" cy="30" r="14" fill="#EBF9F1" />
+      <path d="M25,32 L29,26 L35,26 M29,26 L35,32" stroke="#27C93F" stroke-width="2" stroke-linecap="round" />
+      <text x="54" y="26" font-family="'DM Sans', sans-serif" font-size="11" fill="#77727F">Monthly Savings</text>
+      <text x="54" y="44" font-family="'Outfit', sans-serif" font-size="18" font-weight="800" fill="#24202D">$12,480.00</text>
+      <rect x="20" y="60" width="60" height="14" rx="7" fill="#EBF9F1" />
+      <text x="28" y="71" font-family="'DM Sans', sans-serif" font-size="9" font-weight="700" fill="#1B9A31">+28.4%</text>
+    </g>
+
+    <!-- Floating Security Chip (Top Right) -->
+    <g transform="translate(230, 0)" filter="url(#shadow)">
+      <rect width="125" height="42" rx="21" fill="#FFFFFF" stroke="#FFE3D4" stroke-width="1.5" />
+      <circle cx="21" cy="21" r="9" fill="url(#neonOrange)" />
+      <text x="38" y="25" font-family="'Outfit', sans-serif" font-size="11" font-weight="700" fill="#24202D">256-bit AES</text>
+    </g>
+  </g>
+</svg>
