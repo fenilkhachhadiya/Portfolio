@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
       role: "Solo UI/UX Designer (Personal Project)",
       timeline: "Personal Project | Figma",
       image: "assets/images/project-mobile.svg",
-      figmaUrl: null, // Ready to plug in when user shares link
+      figmaUrl: "https://www.figma.com/design/T3Cgvgt25qsW8bAcyCrzvD/Untitled?node-id=43-684&t=ewUaL9wL5eWmhAHd-1",
       overview: "Designed a user-friendly mobile application interface using Figma. Created wireframes and high-fidelity UI screens for mobile devices, focusing on intuitive navigation flows and comfortable one-handed mobile ergonomics.",
       challenge: "Designing a feature-rich mobile interface that keeps users engaged without overwhelming them on smaller screens, prioritizing key actions in the primary thumb zone.",
       process: [
@@ -54,7 +54,31 @@ document.addEventListener('DOMContentLoaded', () => {
       takeaways: "Mastered mobile ergonomics, thumb-zone hierarchy, and responsive mobile viewport constraints."
     },
 
-    // Project 3: Admin Dashboard UI Design
+    // Project 3: Coffee Shop Landing Page UI Design (Real Figma Prototype Link)
+    coffee: {
+      title: "Coffee Shop Landing Page UI Design",
+      category: "Landing Page UI Design",
+      categoryKey: "landing",
+      tools: "Figma, Auto Layout, Visual Hierarchy, Typography",
+      role: "Solo UI/UX Designer (Personal Project)",
+      timeline: "Personal Project | Figma",
+      image: "assets/images/project-coffee.jpg",
+      figmaUrl: "https://www.figma.com/proto/KBMRsjteFPyOnC48pT5x63/Untitled?node-id=1-5&t=wHg7FWxvB1Pru4AN-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+      figmaEmbedUrl: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FKBMRsjteFPyOnC48pT5x63%2FUntitled%3Fnode-id%3D1-5%26t%3DwHg7FWxvB1Pru4AN-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed%26page-id%3D0%253A1",
+      overview: "Designed an inviting, modern coffee shop landing page in Figma titled 'Savor the Perfect Brew!'. The interface highlights specialty artisan drinks (Espresso, Latte, Cold Brew), store operating hours, promotional offers, and clear call-to-action touchpoints.",
+      challenge: "Creating an appetizing, warm aesthetic with coffee-inspired earth tones while maintaining strong visual hierarchy, accessible contrast ratios, and clean typography that guides visitors smoothly toward ordering.",
+      process: [
+        "Curated a warm coffee-inspired color scheme featuring rich espresso brown, warm latte beige, and golden amber accents.",
+        "Engineered an impactful hero section with appetizing coffee visuals and prominent 'Order Now' & 'Learn More' buttons.",
+        "Built a modular product spotlight carousel highlighting Espresso, Latte, and Cold Brew with clean circular badges.",
+        "Designed promotional callout cards highlighting store opening hours and special customer discounts.",
+        "Connected frames and micro-interactions for a live, clickable Figma prototype."
+      ],
+      deliverables: "High-fidelity interactive Figma prototype, responsive desktop layout, coffee drink component system, and typography hierarchy.",
+      takeaways: "Mastered warm chromatic color palettes, hero section visual pacing, and designing high-conversion commercial landing pages."
+    },
+
+    // Project 3: Admin Dashboard UI Design (Real Figma Prototype Link)
     dashboard: {
       title: "Admin Dashboard UI Design",
       category: "Admin Dashboard UI Design",
@@ -63,7 +87,8 @@ document.addEventListener('DOMContentLoaded', () => {
       role: "Solo UI/UX Designer (Personal Project)",
       timeline: "Personal Project | Figma",
       image: "assets/images/project-dashboard.svg",
-      figmaUrl: null, // Ready to plug in when user shares link
+      figmaUrl: "https://www.figma.com/proto/a2n4TC7eEzYL2yCrigN9Gs/Untitled?node-id=1-6&t=vwqfBqX2PhHtZLD8-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+      figmaEmbedUrl: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fa2n4TC7eEzYL2yCrigN9Gs%2FUntitled%3Fnode-id%3D1-6%26t%3DvwqfBqX2PhHtZLD8-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed%26page-id%3D0%253A1",
       overview: "Designed a modern and user-friendly dashboard interface using Figma. Created a structured layout with sidebar navigation, summary KPI cards, interactive chart components, and clear tabular data presentation.",
       challenge: "Structuring dense data, charts, and activity feeds so administrators can make fast, accurate decisions without suffering from cognitive data overload.",
       process: [
@@ -144,6 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Robust Key Aliases so both semantic names and category names open the modals
   caseStudies.finpulse = caseStudies.landing;
   caseStudies.fittrack = caseStudies.mobile;
+  caseStudies.coffeeLanding = caseStudies.coffee;
   caseStudies.nova = caseStudies.dashboard;
   caseStudies.aura = caseStudies.graphic;
 
@@ -166,6 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Robust Key Aliases so both semantic names and category names open the modals
   caseStudies.finpulse = caseStudies.landing;
   caseStudies.fittrack = caseStudies.mobile;
+  caseStudies.coffeeLanding = caseStudies.coffee;
   caseStudies.nova = caseStudies.dashboard;
   caseStudies.aura = caseStudies.graphic;
 
@@ -237,6 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Robust Key Aliases so both semantic names and category names open the modals
   caseStudies.finpulse = caseStudies.landing;
   caseStudies.fittrack = caseStudies.mobile;
+  caseStudies.coffeeLanding = caseStudies.coffee;
   caseStudies.nova = caseStudies.dashboard;
   caseStudies.aura = caseStudies.graphic;
 
